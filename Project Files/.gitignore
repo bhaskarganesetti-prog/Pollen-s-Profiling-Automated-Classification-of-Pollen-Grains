@@ -1,0 +1,18 @@
+# Python
+_pycache_/
+*.pyc
+env/
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Model / Data (heavy files)
+model.h5
+*.h5
+*.hdf5
+data/
+uploads/
+*.zip
+.DS_Store
