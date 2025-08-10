@@ -1,0 +1,73 @@
+/* Background image full screen */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('/static/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ff9800;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Container with margin for navbar */
+.container {
+    margin-top: 80px; /* avoid navbar overlap */
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Result box styling */
+.result-box {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Buttons */
+button, .btn-link {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #ff9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .btn-link:hover {
+    background: #e68900;
+}
