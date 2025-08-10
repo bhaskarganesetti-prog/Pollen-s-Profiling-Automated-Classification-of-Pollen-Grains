@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/predict">Prediction</a>
+    </div>
+
+    <div class="container">
+        <h1>Prediction Result</h1>
+
+        <!-- Result Box -->
+        <div class="result-box">
+            <p>Predicted Class: <strong>{{ prediction }}</strong></p>
+            <img src="{{ image_url }}" alt="Uploaded Image" width="300">
+        </div>
+
+        <br>
+        <a class="btn-link" href="/">Predict Another</a>
+        <a class="btn-link" href="/logout">Logout</a>
+    </div>
+</body>
+</html>
