@@ -35,4 +35,4 @@
 - 🔄 **Real-time:** Average inference time ≈ 2.8 seconds.
 - 🌍 **Social Impact:** Enables faster research in environmental monitoring and public health.
 - 💼 **Business Potential:** SaaS for clinics/labs, freemium for education, API licensing for agriculture.
-- 📦 [GitHub Repo](https://github.com/bhaskarganesetti-prog/Pollen-s-Profiling-Automated-Classification-of-Pollen-Grains) &nbsp; | &nbsp; 🎥 [Demo Video](https://drive.google.com/folderview?id=11OUqxKd_wgUPyH0Eul8Ko43IKY85Ounv)
+- 📦 [GitHub Repo](https://github.com/bhaskarganesetti-prog/Pollen-s-Profiling-Automated-Classification-of-Pollen-Grains) &nbsp; | &nbsp; 🎥 [Demo Video](https://drive.google.com/file/d/15gDZ4bF_8fjTZZjtxYK9_kEFxlnt8p_S/view?usp=drivesdk)
